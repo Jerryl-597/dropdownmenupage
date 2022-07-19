@@ -4,8 +4,8 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://.com)
-- Live Site URL: [Add live site URL here](https://.com)
+- Solution URL: [Add solution URL here](https://github.com/Jerryl-597/dropdownmenupage)
+- Live Site URL: [Add live site URL here](https://dropdownmenupage.netlify.app/)
 
 ## My process
 
