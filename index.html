@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style></style>
+  </head>
+  <body>
+    <header class="head">
+      <nav>
+        <div class="nav-center">
+          <div class="header-one">
+            <div class="logo">
+              <img
+                src="./images/logo.svg"
+                alt="logo of snap"
+                class="logo-banner"
+              />
+            </div>
+            <div class="links-header">
+              <ul class="nav-links">
+                <div class="links-container">
+                  <li class="links">
+                    features
+                    <button type="button" class="toggle-button">
+                      <span class="toggle-down toggle"
+                        ><img
+                          src="./images/icon-arrow-down.svg"
+                          alt="toggle down button"
+                          class="toggle-down toggle"
+                      /></span>
+                    </button>
+                    <ul class="side-icons nav-icons link-box">
+                      <li class="small-links">
+                        <span class="icon"
+                          ><img
+                            src="./images/icon-todo.svg"
+                            alt=""
+                            class="icon-svg" /></span
+                        >Todo list
+                      </li>
+                      <li class="small-links">
+                        <span class="icon"
+                          ><img
+                            src="./images/icon-calendar.svg"
+                            alt=""
+                            class="icon-svg" /></span
+                        ><span>calender</span>
+                      </li>
+                      <li class="small-links">
+                        <span class="icon"
+                          ><img
+                            src="./images/icon-reminders.svg"
+                            alt=""
+                            class="icon-svg" /></span
+                        >reminders
+                      </li>
+                      <li class="small-links">
+                        <span class="icon"
+                          ><img
+                            src="./images/icon-planning.svg"
+                            alt=""
+                            class="icon-svg" /></span
+                        >planning
+                      </li>
+                    </ul>
+                  </li>
+                </div>
+                <div class="links-container">
+                  <li class="links nav-container">
+                    company
+                    <button type="button" class="toggle-button">
+                      <span class="toggle-down toggle"
+                        ><img
+                          src="./images/icon-arrow-down.svg"
+                          alt="toggle down button"
+                          class="toggle-down toggle"
+                      /></span>
+                    </button>
+                    <ul class="side-icons nav-icons nav-icons-two">
+                      <li class="small-links">history</li>
+                      <li class="small-links">our team</li>
+                      <li class="small-links">blog</li>
+                    </ul>
+                  </li>
+                </div>
+                <li class="links">careers</li>
+                <li class="links">about</li>
+              </ul>
+            </div>
+          </div>
+          <div class="header-two">
+            <div class="hamburger">
+              <img src="./images/icon-menu.svg" alt="" class="menu" />
+            </div>
+            <div class="links-header">
+              <ul class="nav-links">
+                <li class="links">login</li>
+                <li class="links btn">register</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main-page">
+      <div class="hero-image"></div>
+      <article class="content">
+        <div class="info">
+          <h1>Make remote work</h1>
+          <p class="para">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button class="btn one">Learn more</button>
+          <div class="brands-image">
+            <img
+              src="./images/client-databiz.svg"
+              alt="brand logo of databiz"
+              class="brand"
+            />
+            <img
+              src="./images/client-audiophile.svg"
+              alt="brand logo of audiophile"
+              class="brand"
+            />
+            <img
+              src="./images/client-meet.svg"
+              alt="brand logo of meet"
+              class="brand"
+            />
+            <img
+              src="./images/client-maker.svg"
+              alt="brand logo of maker"
+              class="brand"
+            />
+          </div>
+        </div>
+        <div class="image-container">
+          <!-- <img
+            src="./images/image-hero-desktop.png"
+            alt=""
+            class="small-image"
+          /> -->
+        </div>
+      </article>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Jeremiah Lateef</a>.
+    </div>
+    <!-- modal container -->
+    <div class="modal-overlay close-modal">
+      <aside class="sidebar">
+        <div class="cancel">
+          <img src="./images/icon-close-menu.svg" alt="" class="close" />
+        </div>
+        <ul class="side-links">
+          <li class="links side">
+            features
+            <button type="button" class="toggle-button">
+              <span class="toggle-down toggle"
+                ><img
+                  src="./images/icon-arrow-down.svg"
+                  alt="toggle down button"
+                  class="toggle"
+              /></span>
+            </button>
+            <ul class="side-icons">
+              <li class="small-links">
+                <span class="icon"
+                  ><img
+                    src="./images/icon-todo.svg"
+                    alt=""
+                    class="icon-svg" /></span
+                >Todo list
+              </li>
+              <li class="small-links">
+                <span class="icon"
+                  ><img
+                    src="./images/icon-calendar.svg"
+                    alt=""
+                    class="icon-svg" /></span
+                ><span>calender</span>
+              </li>
+              <li class="small-links">
+                <span class="icon"
+                  ><img
+                    src="./images/icon-reminders.svg"
+                    alt=""
+                    class="icon-svg" /></span
+                >reminders
+              </li>
+              <li class="small-links">
+                <span class="icon"
+                  ><img
+                    src="./images/icon-planning.svg"
+                    alt=""
+                    class="icon-svg" /></span
+                >planning
+              </li>
+            </ul>
+          </li>
+          <li class="links side">
+            company
+            <button type="button" class="toggle-button">
+              <span class="toggle"
+                ><img
+                  src="./images/icon-arrow-down.svg"
+                  alt="toggle down button"
+                  class="toggle"
+              /></span>
+            </button>
+            <ul class="side-icons">
+              <li class="small-links">history</li>
+              <li class="small-links">our team</li>
+              <li class="small-links">blog</li>
+            </ul>
+          </li>
+          <li class="links side">careers</li>
+          <li class="links side">about</li>
+        </ul>
+        <div class="log">
+          <ul class="side-links">
+            <li class="links side">login</li>
+            <li class="links small btn">register</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
