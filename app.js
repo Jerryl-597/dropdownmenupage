@@ -30,28 +30,36 @@ document.addEventListener("keydown", function (e) {
 // The toggle button function
 toggleButton.forEach((btn) =>
   btn.addEventListener("click", function (e) {
-    const button = e.target.parentElement;
+    const button = e.currentTarget;
     // This is the span container of the image
 
     const sibling = e.currentTarget.nextElementSibling;
     // This is the container of the hidden links.
 
-    // console.log(button);
-    // console.log(sibling);
+    console.log(button);
+    console.log(sibling);
 
     if (button.classList.contains("toggle")) {
       button.classList.remove("toggle");
       sibling.classList.add("show-toggle");
 
-      button.innerHTML = `<span class="toggle-button">
-                  <img src="./images/icon-arrow-up.svg" alt="toggle up button"
-                /></span>`;
+      button.innerHTML = ` <button type="button" class="toggle-button"><span class="toggle-down toggle"
+                ><img
+                  src="./images/icon-arrow-up.svg"
+                  alt="toggle down button"
+                  class=""
+              /></span>
+            </button>`;
     } else {
       button.classList.add("toggle");
       sibling.classList.remove("show-toggle");
-      button.innerHTML = `<span class="toggle-button toggle">
-                  <img src="./images/icon-arrow-down.svg" alt="toggle up button"
-                /></span>`;
+      button.innerHTML = ` <button type="button" class="toggle-button"><span class="toggle-down"
+                ><img
+                  src="./images/icon-arrow-down.svg"
+                  alt="toggle down button"
+                  class=""
+              /></span>
+            </button>`;
     }
   })
 );
