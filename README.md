@@ -19,7 +19,7 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 
 ### What I learned
 
-This was the first time I'll use 'target' and 'currentTarget' in a project. It was really tricky at first but I'm starting to get the hang of it.
+This was the first time I'll be using dataset in a project so it was really enervating. Also, this ws the shortest project I did - less than 3 hours. 🎉🎉🎉
 
 ### Continued development
 
