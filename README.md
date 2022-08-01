@@ -6,21 +6,16 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 
 ### Links
 
-- Solution URL: [click here](https://github.com/Jerryl-597/dropdownmenupage)
-- Live Site URL: [click here](https://dropdownmenupage.netlify.app/)
+- Solution URL: [GitHub repo](https://github.com/Jerryl-597/dropdownmenupage)
+- Live Site URL: [Here](https://dropdownmenupage.netlify.app/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
-- [Vanilla JavaScript]
-
 ### What I learned
-
+ - The website has a sidebar, a modal overlay and transition to improve the user experience. The website is also responsive in different mobile screens (320px, 375px, 425px, 768px). 
+ - The dropdown buttons are dynamic and was built with JavaScript.
 This was the first time I'll use 'target' and 'currentTarget' in a project. It was really tricky at first but I'm starting to get the hang of it.
 
 ### Continued development
