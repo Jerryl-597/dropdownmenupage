@@ -36,9 +36,6 @@ toggleButton.forEach((btn) =>
     const sibling = e.currentTarget.nextElementSibling;
     // This is the container of the hidden links.
 
-    console.log(button);
-    console.log(sibling);
-
     if (button.classList.contains("toggle")) {
       button.classList.remove("toggle");
       sibling.classList.add("show-toggle");
