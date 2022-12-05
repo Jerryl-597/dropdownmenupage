@@ -216,7 +216,7 @@ End of Hero Page
 Desktop View
 ==============
 */
-@media screen and (min-width: 778px) {
+@media screen and (min-width: 820px) {
   .nav {
     height: 7rem;
   }
